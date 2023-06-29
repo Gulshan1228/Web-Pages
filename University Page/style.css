@@ -1,0 +1,593 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.home{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+
+}
+.navbar a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.name{
+    font-size: 50px;
+    margin-top: 5px;
+    font-family: cursive;
+    margin-left: 25px;
+}
+.university{
+    margin-left: 80px;
+    margin-top: -40px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.rightnav{
+    /* border: 2px solid green; */
+    font-size: 25px;
+    margin-right: 70px;
+}
+.rightnav a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+} 
+.navbar li{
+    list-style: none;
+    float: left;
+    padding-left: 25px;
+}
+.rightnav a:hover{
+    text-decoration: underline;
+    color:white;
+}
+.leftnav p{
+    margin-top: -15px;
+    margin-left: 50px;
+    color: white;
+}
+
+.content{
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    font-family:  'Times New Roman', Times, serif;
+    width: 75%;
+}
+.content h1{
+    font-family: 'Franklin Gothic Medium';
+
+    font-size: 60px;
+}
+.content span{
+    font-size: 90px;
+    color: skyblue;
+    font-family:  'Times New Roman', Times, serif;
+}
+.content p{
+    font-size: 16px;
+}
+
+.content a{
+    padding: 10px 25px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+.morebtn{
+    margin-top: 35px;
+}
+
+.ourcourses{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 75px;
+}
+.ourcourses span{
+    font-size: 40px;
+}
+
+
+.courses{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 150px;
+}
+.courses p{
+    padding: 10px;
+}
+.degree{
+    margin: 25px;
+    width: 25%;
+    text-align: center;
+    background-color: rgba(128, 0, 128, 0.5);
+    border-radius: 10px;
+}
+.degree:hover{
+    box-shadow: 0px 0px 25px 5px grey;
+}
+
+.campus{
+    text-align: center;margin: 25px;
+    margin-top: 100px;
+}
+.campus span{
+    font-size: 40px;
+    font-weight: bold;
+}
+.pics{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 175px;
+}
+.pics img{
+    border-radius: 8px;
+    width: 290px;
+    height: 400px;
+}
+.pic:hover{
+    border-radius: 8px;
+    opacity: 0.9;
+    box-shadow: 0px 0px 3px 1px gray;
+}
+.facilities{
+    text-align: center;
+    margin: 25px;
+    margin-top: 100px;
+}
+.facilities span{
+    font-size: 40px;
+    font-weight: bold;
+}
+.morepics{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 175px;
+}
+.morepics img{
+    border-radius: 8px;
+    width: 290px;
+    height: 300px;
+}
+.morepic:hover{
+    border-radius: 8px;
+    opacity: 0.9;
+    box-shadow: 0px 0px 3px 1px gray;
+}
+.facilitiescontent{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 175px;
+    margin-left: 20px;
+}
+.facilitiescontent div span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.feedback{
+    text-align: center;
+    margin: 25px;
+    margin-top: 100px;
+}
+.feedback span{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.feeds{
+    display: flex;
+    justify-content: space-evenly;
+}
+.feeds div{
+    width: 40%;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: rgba(255, 0, 255, 0.25);
+}
+.feeds p{
+    padding-left: 75px;
+}
+.feeds span{
+    color: red;
+    font-weight: bold;
+    padding: 75px;
+}
+
+.more p{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 25px;
+    margin-top: 100px;
+    text-align: center;
+}
+.video{
+    display: flex;
+    justify-content: space-evenly;
+}
+.video div iframe{
+    border-radius: 10px;
+}
+
+.contactus{
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    padding: 50px 50px;
+    width: 89%;
+    margin: auto;
+    margin-top: 50px;
+}
+.contactus p{
+    padding: 50px;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.contactus button{
+
+    border: 1px solid white;
+    border-radius: 2px;
+    text-align: center;
+    color: white;
+    padding: 10px 40px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* responsiveness of the website
+we will use Media Queries : - */
+
+/* Extra small */
+@media(max-width: 430px){
+    .name {
+        font-size: 18px;
+        margin-top: 5px;
+        font-family: cursive;
+        margin-left: 15px;
+    }
+    .university {
+        margin-left: 30px;
+        margin-top: -15px;
+        font-size: 16px;
+    }
+    .rightnav {
+        font-size: 12px;
+        margin-right: 5px;
+    }
+    .navbar li {
+        /* list-style: none; */
+        padding-left: 6px;
+    }
+}
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 576px){
+    .university {
+        margin-left: 40px;
+        margin-top: -15px;
+        font-size: 18px;
+    }
+    .name {
+        font-size: 20px;
+        margin-top: 5px;
+        font-family: cursive;
+        margin-left: 20px;
+    }
+    .navbar{
+        padding-top: 15px;
+        padding-right: 10px;
+    }
+    .rightnav {
+        font-size: 15px;
+        margin-right: 5px;
+    }
+    .navbar li {
+        list-style: none;
+        float: left;
+        padding-left: 6px;
+    }
+    .home {
+        background-image: url(bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 750px;
+    }
+    .content h1 {
+        font-family: 'Franklin Gothic Medium';
+        font-size: 25px;
+    }
+    .content span {
+        font-size: 35px;
+        color: skyblue;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .content a {
+        padding: 5px 10px;
+        border: 1px solid white;
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+    }
+    .ourcourses {
+        text-align: center;
+        /* font-weight: bold; */
+        padding-top: 75px;
+    }
+    .degree {
+        margin: 20px;
+        width: 80%;
+        text-align: center;
+        background-color: rgba(128, 0, 128, 0.5);
+        border-radius: 10px;
+    }
+    .degree h2{
+        font-size: 20px;
+    }
+    .courses p {
+        padding: 2px;
+    }
+    .courses {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 25px;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .pics {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 25px;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+    .pics img {
+        border-radius: 8px;
+        width: 290px;
+        height: 250px;
+        padding-top: 25px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+    .morepics {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 25px;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+    .morepics img {
+        border-radius: 8px;
+        width: 290px;
+        height: 250px;
+        padding-top: 25px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+    .facilitiescontent {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    .feeds {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .feeds div {
+        border-radius: 8px;
+        padding: 10px;
+        background-color: rgba(255, 0, 255, 0.25);
+        margin-top: 25px;
+        margin: auto;
+        margin-top: 25px;
+        width: 300px;
+    }
+    .video {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .contactus {
+        background-color: rgba(0, 0, 0, 0.9);
+        border-radius: 8px;
+        text-align: center;
+        color: white;
+        width: auto;
+    }
+    .contactus p {
+        padding: 25px;
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+    .contactus button {
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    }
+    .video {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .name {
+        font-size: 35px;
+        margin-top: 5px;
+        font-family: cursive;
+        margin-left: 15px;
+    }
+    .university {
+        margin-left: 40px;
+        margin-top: -35px;
+    }
+    .rightnav {
+        font-size: 18px;
+        margin-right: 12px;
+    }
+    .navbar li {
+        list-style: none;
+        float: left;
+        padding-left: 12px;
+    }
+    .content span {
+        font-size: 40px;
+        color: skyblue;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .content h1 {
+        font-family: 'Franklin Gothic Medium';
+        font-size: 30px;
+    }
+    .content {
+        margin: auto;
+        text-align: center;
+        padding-top: 15px;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        width: 75%;
+    }
+    .morebtn {
+        margin-top: 30px;
+    }
+    .content a {
+        padding: 5px 12px;
+        border: 1px solid white;
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+    }
+    .ourcourses {
+        text-align: center;
+        padding-top: 75px;
+    }
+    .courses {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0px;
+    }
+    .degree {
+        margin: 10px;
+        width: 30%;
+        text-align: center;
+        background-color: rgba(128, 0, 128, 0.5);
+        border-radius: 10px;
+    }
+    .pics {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px;
+    }
+    .pics img {
+        border-radius: 8px;
+        width: 170px;
+        height: 250px;
+        object-fit: cover;
+    }
+    .morepics {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px;
+    }
+    .morepics img {
+        border-radius: 8px;
+        width: 170px;
+        height: 250px;
+        object-fit: cover;
+    }
+    .facilitiescontent {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px;
+    }
+    .feeds {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .feeds div {
+        width: auto;
+        border-radius: 8px;
+        padding: 10px;
+        margin: 20px;
+        background-color: rgba(255, 0, 255, 0.25);
+    }
+    .video {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contactus {
+        background-color: rgba(0, 0, 0, 0.9);
+        border-radius: 8px;
+        text-align: center;
+        color: white;
+        padding: 25px 0px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .name {
+        font-size: 40px;
+        margin-top: 5px;
+        font-family: cursive;
+        margin-left: 15px;
+    }
+    .rightnav {
+        font-size: 25px;
+        margin-right: 15px;
+    }
+    .navbar li {
+        list-style: none;
+        float: left;
+        padding-left: 18px;
+    }
+    .content h1 {
+        font-family: 'Franklin Gothic Medium';
+        font-size: 45px;
+    }
+    .content span {
+        font-size: 60px;
+        color: skyblue;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .feeds {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .contactus {
+        background-color: rgba(0, 0, 0, 0.9);
+        border-radius: 8px;
+        text-align: center;
+        color: white;
+        padding: 50px 50px;
+    }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}

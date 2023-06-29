@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    position: relative;
+    background-color: rgba(128, 128, 128, 0.2);
+}
+.navbar{
+    padding-right: 0px;
+}
+.leftnav{
+    display: flex;
+}
+.leftnav h1{
+    font-family: cursive;
+}
+.leftnav img{
+    height: 40px;
+}
+.rightnav{
+    margin-right: 25px;
+}
+.rightnav ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 10px;
+}
+.rightnav ul li a{
+    text-decoration: none;
+    color: black;
+    padding-right: 25px;
+}
+#check{
+    display: none;
+}
+.menuicon{
+    display: none;
+}
+.xicon{
+    display: none;
+}
+.container1{
+    background-color: rgba(125, 125, 125,0.2);
+}
+.content1{
+    width: 90%;
+    height: 700px;
+    background-image: url('home1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+}
+.content1{
+    position: relative;
+}
+.content1 h2{
+    width: 800px;
+    padding: 100px;
+    box-sizing: border-box;
+    font-size: 75px;
+    color: white;
+}
+.content1 button{
+    margin: 0px 110px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 1s;
+    margin-top: -10px;
+}
+.content1 button:hover{
+    /* background: linear-gradient(150deg,lightgreen,skyblue); */
+    box-shadow: inset 400px 0 0 0 skyblue;
+    color: white;
+    transform: scale(1.1);
+}
+.content2{
+    padding-top: 100px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.innerhouse{
+    width: 600px;
+    height: 600px;
+    background-image: url('home interior.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+.innerhouse-content{
+    width: 50%;
+}
+.innerhouse-content h2{
+    font-size: 45px;
+    padding: 50px;
+    padding-top: 150px;
+    letter-spacing: 1px;
+}
+.innerhouse-content p{
+    padding: 25px 50px;
+    text-align: left;
+}
+.innerhouse-content button{
+    margin-left: 190px; 
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 1s;
+    justify-content: center;
+    width: 180px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.innerhouse-content button:hover{
+    box-shadow: inset 1000px 0 0 0 skyblue;
+    transform: scale(1.1);
+    border: none;
+}
+.whyus{
+    background-color: rgba(125, 125, 125,0.2);
+    font-size: 40px;
+    padding: 150px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container2{
+    background-color: rgba(125, 125, 125,0.2);
+    display: flex;
+    justify-content: space-evenly;
+    padding:50px 70px;
+    margin: auto;
+}
+.content{
+    transition: all 0.5s;
+    padding: 15px;
+    text-align: center;
+}
+.content h2{
+    padding: 20px;
+    font-size: 30px;
+    color: goldenrod;
+}
+.content:hover{
+    box-shadow: inset 2px 2px 10px 10px rgba(125, 125, 125, 0.2);
+    transform: scale(1.05);
+    transform: translateY(-10px);
+    border-radius: 10px;
+}
+
+
+
+.ourservices{
+    background-color: rgba(125, 125, 125,0.3);
+    font-size: 40px;
+    padding: 100px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.services{
+    background-color: rgba(125, 125, 125,0.3);
+    display: flex;
+    padding: 50px 10px;
+    justify-content: space-evenly;
+}
+.service{
+    height: 550px;
+    width: 350px;
+    border-radius: 2px;
+}
+.service h2{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 210px;
+    color: white;
+}
+.service1{
+    background-image: url('kitchen.jpg');
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    transition: all 1s;
+}
+.service1:hover{
+    box-shadow: 2px 2px 10px 10px rgba(128, 128, 128, 0.8);
+    background-color: rgba(0, 0, 0, 0.35);
+    transform: scale(1.01);
+    transform: translateY(-10px);
+}
+.service2{
+    transition: all 1s;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background-image: url('bathroom.jpg');
+}
+.service2:hover{
+    background-color: rgba(0, 0, 0, 0.35);
+    box-shadow: 2px 2px 10px 10px rgba(128, 128, 128, 0.8);
+    transform: scale(1.01);
+    transform: translateY(-10px);
+}
+.service3{
+    transition: all 1s;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background-image: url('home\ interior.jpeg');
+}
+.service3:hover{
+    box-shadow: 2px 2px 10px 10px rgba(128, 128, 128, 0.8);
+    background-color: rgba(0, 0, 0, 0.35);
+    transform: scale(1.01);
+    transform: translateY(-10px);
+}
+.servicebtn{
+    background-color: rgba(125, 125, 125,0.3);
+    margin: auto;
+    padding-bottom: 100px;
+    padding-top: 25px;
+}
+.servicebtn button{ 
+   border: none;
+   width: 180px;
+   padding: 10px;
+   transition: all 1s;
+   border-radius: 5px;
+   color: white;
+   background-color: black;
+   display: block;
+   margin: auto;
+}
+.servicebtn button:hover{
+    box-shadow: inset 1000px 0 0 0 skyblue;
+    transform: scale(1.1);
+    color: white;
+}
+
+.customer-reviews{
+    background-color: rgba(125, 125, 125,0.2);
+}
+.customer-reviews > h2{
+    font-size: 40px;
+    padding: 50px;
+    text-align: center;
+}
+.reviews{
+    display: flex;
+    text-align: center;
+    padding: 10px 200px;
+}
+.review{
+    padding: 10px;
+}
+.review p{
+    line-height: 2;
+}
+.review h2{
+    padding: 40px;
+    color: goldenrod;
+}
+.loginform{
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    display: flex;
+    padding:50px 100px;
+    /* justify-content: space-between; */
+}
+.form-content{
+    width: 500px;
+    padding:0px 25px;
+    margin-right: 300px;
+}
+.form-content h2{
+    font-size: 45px;
+    padding: 25px;
+    font-weight: bold;
+}
+.form-content p{
+    padding-left: 25px;
+}
+.form-content span{
+    line-height: 3;
+    padding-left: 25px;
+    display: block;
+}
+.form{
+    padding-top: 50px;
+    width: 500px;
+    margin-left: -120px;
+}
+.form label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+.table1 tr td input{
+    width: 200px;
+    height: 20px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+    margin-top: 10px;
+    Margin-right: 10px;
+    margin-bottom: 10px;
+    outline: 0;
+    color: white;
+}
+.table2 tr td input{
+    width: 410px;
+    height: 20px;
+    background: transparent;
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    Margin-right: 10px;
+    outline: 0;
+}
+.form button{
+    border: none;
+    width: 415px;
+    padding: 15px;
+    transition: all 1s;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    display: block;
+    box-sizing: border-box;
+}
+.form button:hover{
+    box-shadow: inset 1000px 0 0 0 skyblue;
+    transform: scale(1.1);
+    color: white;
+}
+.footer{
+    background-color: rgba(125, 125, 125,0.2);
+    width: 100%;
+    padding: 100px 200px;
+    box-sizing: border-box;
+}
+.foots{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.foot{
+    padding: 0px 25px;
+}
+.foot-details{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 25px 0px 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    align-items: center;
+}
+.social-icon{
+    font-size: 25px;
+}
+.social-icon a{
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *******************MEDIA Queriesssss******************* */
+
+
+
+
+
+
+
+
+
