@@ -1,0 +1,239 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    /* border: 2px solid red; */
+    color: white;
+}
+.left img{
+    filter: grayscale(200%);
+}
+body{
+    background-image: url('pics/bg.jpg');
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    font-family: cursive;
+}
+.left{
+    width: 100px;
+    display: inline-block;
+    position: absolute;
+    left: 25px;
+    top: 10px;
+}
+.mid{
+    width: 600px;
+    margin: 25px auto;
+}
+.right{
+    width: 100px;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.mid li a{
+    text-decoration: none;
+    color: white;
+}
+.mid li{
+    display: inline-block;
+    margin: 5px 30px;
+}
+.mid li a:hover,.mid li a:active{
+    text-decoration: underline;
+    /* color: rgba(128, 0, 128, 0.5); */
+}
+.right button{
+    color: white;
+    background-color: rgba(0, 50, 255, 0.2);
+    border: none;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+    width: 100px;
+    font-family: cursive;
+}
+
+
+.container{
+    margin-top: 150px;
+    margin-left: 100px;
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+    border: 2px solid grey;
+    /* background: linear-gradient(purple,lightblue,blue); */
+    text-align: center;
+}
+.container h3{
+    padding: 20px;
+}
+.container div input{
+    width: 80%;
+    height: 30px;
+    margin-top: 20px;
+    text-align: center;
+    background: transparent;
+    border-bottom: 1px solid white;
+    border-right: 2px solid white;
+    border-radius: 10px;
+    border-bottom-right-radius: 100px;
+    border-top: none;
+    border-left: none;
+}
+.container div button{
+    width: 30%;
+    height: 35px;
+    margin-top: 40px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(0, 50, 255, 0.2);
+    border: none;
+}
+button:hover, form button:hover{
+    background-color:  rgb(0, 50, 255);
+}
+
+footer{
+    height: max-content;
+    background-color: black;
+    width: 98%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 50px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+}
+footer .imgcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+footer img{
+    height: 100px;
+    opacity: 90%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+footer img:hover{
+    opacity: 100%;
+}
+.social-icon{
+    font-size: 30px;
+}
+.social-icon a{
+    text-decoration: none;
+    color: white;
+    padding-right: 15px;
+}
+.footinfo{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright{
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+
+
+
+
+/* css for about us page */
+
+.ourservices{
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    background-color: black;
+    width: 100%;
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.services{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color: transparent;
+    width: 98%;
+    margin: auto;
+    font-weight: lighter;
+}
+.service1{
+    height: 500px;
+    width: 200px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('pics/service1.pnd.PNG');
+}
+.service2{
+    height: 500px;
+    width: 200px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('pics/service2.png');
+}
+.service3{
+    height: 500px;
+    width: 200px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('pics/service3.png');
+}
+.service:hover{
+    transform: scaleY(1.05);
+} 
+.services h2{
+    margin-top: 70px;
+}
+.serviceatgym{
+    background: linear-gradient(skyblue,purple);
+    width: 98%;
+    margin: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+/* CSS for the fitness calculator page */
+.fitnesscalculator{
+    display: flex;
+    flex-direction: column;
+}
+.fitnesscalculator h2{
+    padding: 25px;
+    font-size: 30px;
+}
+.fitnesscalculator input{
+    width: 60%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: transparent;
+    border-bottom: 2px solid white;
+    border-bottom-right-radius: 25px;
+}
+.fitnesscalculator button{
+    width: 120px;
+    font-size: 25px;
+    margin: auto;
+    padding: 5px;
+    color: white;
+    background-color: rgba(0, 50, 255, 0.2);
+    border-radius: 25%;
+    border: none;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
